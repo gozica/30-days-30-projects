@@ -8,11 +8,12 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(
-    179.4deg,
-    rgb(12, 20, 69) -16.9%,
-    rgb(71, 30, 84) 119.9%
-  );
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
   padding: 10px;
 }
 
@@ -110,6 +111,6 @@ ul li span {
   border-radius: 50%;
 }
 
-ul li :hover{
-    background: aliceblue;
+ul li :hover {
+  background: aliceblue;
 }
