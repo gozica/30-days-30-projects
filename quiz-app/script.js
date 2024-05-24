@@ -90,12 +90,13 @@ const questions = [
   },
 
   {
-    question: "What year was the first Saw movie released?",
+    question:
+      "Which popular horror film was inspired by real events that took place in Gainesville, Florida in the early 90s?",
     answers: [
-      { text: "2001", correct: false },
-      { text: "2008", correct: false },
-      { text: "2004", correct: true },
-      { text: "1999", correct: false },
+      { text: "I know what you did last summer", correct: false },
+      { text: "Scream", correct: true },
+      { text: "The Craft", correct: false },
+      { text: "Misery", correct: false },
     ],
   },
 ];
