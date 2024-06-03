@@ -8,7 +8,11 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+  background: linear-gradient(
+    110.6deg,
+    rgb(184, 142, 252) 2.2%,
+    rgb(104, 119, 244) 100.2%
+  );
   color: white;
   padding-top: 3%;
   padding-left: 9%;
@@ -33,7 +37,7 @@
 .container button {
   display: flex;
   align-items: center;
-  background: rgb(167, 71, 227);
+  background: rgb(115, 63, 227);
   color: white;
   font-size: 15px;
   outline: 0;
