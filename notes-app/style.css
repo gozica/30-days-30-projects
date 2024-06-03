@@ -8,11 +8,7 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: radial-gradient(
-    788px at 0.7% 3.4%,
-    rgb(164, 231, 192) 0%,
-    rgb(255, 255, 255) 90%
-  );
+  background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
   color: white;
   padding-top: 3%;
   padding-left: 9%;
@@ -29,21 +25,42 @@
   width: 55px;
 }
 
-.container button img{
-width: 23px;
-margin-right: 7px;
+.container button img {
+  width: 23px;
+  margin-right: 7px;
 }
 
-.container button{
-    display: flex;
-    align-items: center;
-   background: rgb(108, 175, 131);
-    color: white;
-    font-size: 15px;
-    outline: 0;
-    border: 0;
-    border-radius: 35px;
-    padding: 13px 23px;
-    margin: 30px 0 20px;
-    cursor: pointer;
+.container button {
+  display: flex;
+  align-items: center;
+  background: rgb(167, 71, 227);
+  color: white;
+  font-size: 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 35px;
+  padding: 13px 23px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: white;
+  color: black;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+}
+
+.input-box img {
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
 }
