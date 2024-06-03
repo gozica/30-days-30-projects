@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    788px at 0.7% 3.4%,
+    rgb(164, 231, 192) 0%,
+    rgb(255, 255, 255) 90%
+  );
+  color: white;
+  padding-top: 3%;
+  padding-left: 9%;
+}
+
+.container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 550;
+}
+
+.container h1 img {
+  width: 55px;
+}
+
+.container button img{
+width: 23px;
+margin-right: 7px;
+}
+
+.container button{
+    display: flex;
+    align-items: center;
+   background: rgb(108, 175, 131);
+    color: white;
+    font-size: 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    padding: 13px 23px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
