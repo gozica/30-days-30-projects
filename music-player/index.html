@@ -24,13 +24,13 @@
         <h1>Strangers In The Night</h1>
         <p>Frank Sinatra</p>
 
-<audio controls>
+<audio id="song">
     <source src="media/Strangers In The Night (2008 Remastered).mp3">
 </audio>
 <input type="range" value="0" id="progress">
 <div class="controls">
     <div><i class="fa-solid fa-backward"></i></div>
-        <div><i class="fa-solid fa-play"></i></div>
+        <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrl"></i></div>
             <div><i class="fa-solid fa-forward"></i></div>
 
 
@@ -38,12 +38,6 @@
 
     </div>
 </div>
-
-
-
-
-
-
     <script src="script.js"></script>
 </body>
 </html>
