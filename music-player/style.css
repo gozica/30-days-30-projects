@@ -9,7 +9,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #333;
+    background: #7e4b27;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,9 +17,10 @@
 }
 
 .music-player{
-    background: rgb(216, 160, 243);
+    background:#f7e8ac;
     width: 400px;
     padding: 25px 35px;
+    border-radius: 20px;
     text-align: center;
 }
 
@@ -34,15 +35,15 @@ nav .circle{
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #fff;
-    color: #a6a1a1;
+    background: #99cba6;
+    color:#ea861a;
     box-shadow: 0 5px 10px rgba(238, 6, 6, 0.22);
 
 }
 
 .song-img{
     width: 100%;
-    border-radius: 20%;
-    border: 2px solid#fff;
+    border-radius: 5%;
+    border: 2px solid  #f2ab23; 
     box-shadow: 0 10px 60px rgba(225, 26, 26 0.22);
 }
